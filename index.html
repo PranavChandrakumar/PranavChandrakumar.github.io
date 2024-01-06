@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pranav Chandrakumar's personal website" />
+    <title>Pranav Chandrakumar</title>
+    <!-- Font Files -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Yanone+Kaffeesatz&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="brand-name"><a href="#home">Pranav Chandrakumar</a></div>
+        <!-- Hamburger Button -->
+        <a href="" onClick="return false;" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <!-- Navbar Options -->
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contactinfo">Contact Information</a></li>
+            <li><a href="documents/NN 2024 Internship Resume.pdf">Résumé</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- About Me -->
+      <header id="home">
+        <div class="content-wrap">
+          <h1>Hi! I'm Pranav</h1>
+          <h2>Student at McMaster University, working towards a Bachelor's of Engineering</h2>
+          <p>
+            I have a strong desire to understand the complex systems which drive the modern world. My field of study allows me to achieve this through exploring the principles of mechatronics engineeing, through the "lens" of biomedical engineering. Not only am I developing a strong understanding of mechainical, electrical, and software concepts, I'm doing so with a human-centred focus.
+          </p>
+          <p>
+            Currently searching for a summer 2024 Co-op/Internship position which would allow me to grow my skills. 
+          </p>
+      </header>
+
+      <!-- Projects -->
+      <section class="projects" id="projects">
+        <div class="content-wrap">
+          <h2>Projects</h2>
+          <p>
+            Below are a few projects I've worked on as personal endeavours, as well as during my time in university.
+          </p>
+
+          <!-- Project #1 -->
+          <section class="project-item">
+            <img src="images/Hip_Implant.png" alt="Rheumatoid Arthritis Implant" />
+            <h3>The Carbioplasty</h3>
+            <h4>October 2022 - December 2022</h4>
+            <p>
+              Modelled a miniaturized hip implant for patients with rheumatoid arthritis using Autodesk Inventor. 
+              The final product was a proof of concept model, with a substantial amount of materials research to supplement the prototype to determine feasibility.    
+            </p>
+            <a
+              href="https://motley-beauty-d24.notion.site/The-Carbioplasty-e1dbd38442b1417c95e76524d6ff4e97"
+              target="_blank"
+              >Design Portfolio</a
+            >
+          </section>
+
+          <!-- Project #2 -->
+          <section class="project-item">
+            <img src="images/Rocking_Crib.png" alt="Self Rocking Crib for Infants" />
+            <h3>Rock and Roll Crib</h3>
+            <h4>January 2023 - March 2023</h4>
+            <p>
+              Created an automated self-rocking crib for parents with newborns, which constantly monitors health paramaters of the child to ensure their safety.
+              This project involved creating a complex assembly on Autodesk Inventor, assembling a breadboard with a Raspberry Pi, and creating a Python program which was used to read data
+              from sensors and control actuators.
+
+            </p>
+            <a
+              href="https://motley-beauty-d24.notion.site/The-Rock-Roll-Crib-1c66af9692484845a0192cefc3f5781d"
+              target="_blank"
+              >Design Portfolio</a
+            >
+          </section>
+
+          <!-- Project #3 -->
+          <section class="project-item">
+            <img src="images/Ackley_Function.png" alt="Visualization of the Ackley Function" />
+            <h3>Optimization of a Genetic Algorithm</h3>
+            <h4>October 2023 - November 2023</h4>
+            <p>
+              Created a program using the C language which uses numerical methods to optimize any supplied objective function. This program was specifically created
+              to find optimal genes for a randomized population, whose genetic traits are modeled through the Ackley function.
+
+            </p>
+            <a
+              href="https://github.com/PranavChandrakumar/Genetic-Algorithm-Optimization"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </section>
+
+          <!-- Project #4 -->
+          <section class="project-item">
+            <img src="images/CSR Matrix Visualization.png" alt="CSR Visualization" />
+            <h3>Compressed Sparse Row (CSR) Linear System Solver </h3>
+            <h4>November 2023 - December 2023</h4>
+            <p>
+              Created a program using the C language which calculates solution vectors of linear systems which are described by CSR matricies.
+              The program accepts a .mtx file as an argument (Matrix Market Format) and computes the best solution through an implementation of
+              the Jacobi method.
+
+            </p>
+            <a
+              href="https://github.com/PranavChandrakumar/CSR-Matrix-Linear-System-Solver"
+              target="_blank"
+              >GitHub Repository</a
+            >
+          </section>
+
+        </div>
+      </section>
+
+      <!-- Education & Certifications -->
+      <section class="education" id="education">
+        <div class="content-wrap">
+          <h2>Education/Skills</h2>
+          <section class="education-item">
+            <div class="education-details">
+              <img src="images/McMaster.png" alt="McMaster Logo" />
+              <h3>McMaster University</h3>
+              <h5>Integrated Biomedical Engineering & Health Sciences - Mechatronics and Biomedical Engineering, Minor in Mathematics/Statistics</h5>
+              <h4>September 2022 - April 2027 (Projected)</h4>
+            </div>
+            <div class="education-summary">
+              <h3>cGPA</h3>
+              <ul>
+                11.5 (3.95 on 4.0 Scale)
+              </ul>
+              <h3>Technical Abilities</h3>
+              <ul>
+                <li>Programming Languages/Operating Systems: Python, C, C++, Linux (WSL/Ubuntu)</li>
+                <li>Mathematical Software: MATLAB, Maple, FlexPDE</li>
+                <li>Solid Modelling: Autodesk Inventor</li>
+                <li>Hardware: Raspberry Pi, Arduino</li>
+                <li>Document Preparation: LaTeX</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- Contact Information -->
+      <footer id="contactinfo">
+        <div class="content-wrap">
+          <h2>Contact Information</h2>
+          <!-- Social media and contact links.-->
+          <ul class="contact-list">
+            <li>
+              <a href="mailto:pranav.k.chandrakumar@gmail.com">pranav.k.chandrakumar@gmail.com</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/pranavchandrakumar/">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://github.com/PranavChandrakumar">GitHub</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <!-- JavaScript Files -->
+  <script src="js/script.js"></script>
+</html>
